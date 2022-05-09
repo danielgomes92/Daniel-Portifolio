@@ -20,3 +20,21 @@ header #cabecalho {
     align-items: center;
     justify-content: space-around;
 }
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 7px;
+}
+
+/* remoção das underlines */
+a {
+    text-decoration: none;
+}
+
+/* remoção dos pontos bullets */
+ul {
+    list-style: none;
+}
