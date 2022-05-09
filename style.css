@@ -71,6 +71,18 @@ ul {
     margin-bottom: 16px;
 }
 
+/* ARROW - Seta com animação */
+#arrow {
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
 /* About - texto */
 #about p {
     max-width: 700px;
