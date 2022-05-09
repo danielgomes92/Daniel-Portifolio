@@ -48,7 +48,7 @@
             </div>
 
             <!-- Espaço para animação da seta -->
-            <div id="arrow">
+            <div onclick="displayAbout()" id="arrow">
                 <i id="animation" class="fa-solid fa-angles-down"></i>
             </div>
 
@@ -76,6 +76,17 @@
         </section>
 
     </main>
+
+    <!-- Espaço Script reservado para adicionar o efeito Mostrar/esconder texto -->
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
     
 </body>
 

@@ -83,6 +83,15 @@ ul {
     }
 }
 
+/* efeito de rotação do ponteiro */
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+.active {
+    display: block !important;
+}
+
 /* About - texto */
 #about p {
     max-width: 700px;
