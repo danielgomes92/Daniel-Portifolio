@@ -13,3 +13,10 @@ body {
     background-color: #0a0615;
     background-repeat: no-repeat;
 }
+
+/* cabeçalho da página */
+header #cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
