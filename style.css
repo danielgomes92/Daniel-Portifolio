@@ -38,3 +38,18 @@ a {
 ul {
     list-style: none;
 }
+
+/* Nome, H1 e H5 */
+.container {
+    text-align: center;
+}
+
+/* Nome */
+.container .name h1 {
+    font-size: 60px;
+}
+
+/* Github/ E-mail / Whatsapp */
+.container .name h5 {
+    font-size: 20px;
+}
