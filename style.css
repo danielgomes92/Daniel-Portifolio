@@ -5,3 +5,11 @@
     color: #af082c;
     font-family: 'Press Start 2P', sans-serif; /* Fonte pixelada estilo jogo antigo */
 }
+
+/* Conteúdo da página */
+body {
+    background-image: url(/imagens/tela\ inteira.jpg);
+    background-size: cover ;
+    background-color: #0a0615;
+    background-repeat: no-repeat;
+}
